@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048234A82627EFA400BDD31F /* libMLFlare.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 048234A72627EFA400BDD31F /* libMLFlare.dylib */; };
+		048234AF2628035200BDD31F /* ModuleCalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048234AD2628035200BDD31F /* ModuleCalibrationViewController.m */; };
+		048234B02628035200BDD31F /* ModuleCalibrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048234AE2628035200BDD31F /* ModuleCalibrationViewController.xib */; };
+		048234B22628155E00BDD31F /* JKFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048234B12628155E00BDD31F /* JKFoundation.framework */; };
+		048234B32628156700BDD31F /* JKFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 048234B12628155E00BDD31F /* JKFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		048234B826282B6700BDD31F /* GoDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 048234B426282B6700BDD31F /* GoDown.png */; };
+		048234B926282B6700BDD31F /* GoRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 048234B526282B6700BDD31F /* GoRight.png */; };
+		048234BA26282B6700BDD31F /* GoLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 048234B626282B6700BDD31F /* GoLeft.png */; };
+		048234BB26282B6700BDD31F /* GoUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 048234B726282B6700BDD31F /* GoUp.png */; };
+		048234E02629300800BDD31F /* SysProfile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048234DF2629300800BDD31F /* SysProfile.plist */; };
+		04D6567C262E870200FA8E58 /* redLedMini.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D6567A262E870200FA8E58 /* redLedMini.png */; };
+		04D6567D262E870200FA8E58 /* greenLedMini.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D6567B262E870200FA8E58 /* greenLedMini.png */; };
+		422FC8E42457FCF600B573A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8E32457FCF600B573A6 /* AppDelegate.m */; };
+		422FC8E62457FCF800B573A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422FC8E52457FCF800B573A6 /* Assets.xcassets */; };
+		422FC8E92457FCF800B573A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422FC8E72457FCF800B573A6 /* MainMenu.xib */; };
+		422FC8EC2457FCF800B573A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422FC8EB2457FCF800B573A6 /* main.m */; };
+		422FC8F52457FD2700B573A6 /* libLTSMC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 422FC8F32457FD2600B573A6 /* libLTSMC.dylib */; };
+		4287FE6524A846CD00E2681C /* yellowLed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE5F24A846CC00E2681C /* yellowLed.png */; };
+		4287FE6624A846CD00E2681C /* greenLed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE6024A846CC00E2681C /* greenLed.png */; };
+		4287FE6724A846CD00E2681C /* grayLed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE6124A846CC00E2681C /* grayLed.png */; };
+		4287FE6824A846CD00E2681C /* redLed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE6224A846CC00E2681C /* redLed.png */; };
+		4287FE6924A846CD00E2681C /* disconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE6324A846CD00E2681C /* disconnect.png */; };
+		4287FE6A24A846CD00E2681C /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4287FE6424A846CD00E2681C /* connect.png */; };
+		42C8BDE924AB396100C00439 /* MT_Name.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDE824AB396100C00439 /* MT_Name.png */; };
+		42C8BDEC24AC235E00C00439 /* libLTSMC.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 422FC8F32457FD2600B573A6 /* libLTSMC.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		42C8BDEE24AC423E00C00439 /* io.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDED24AC423E00C00439 /* io.png */; };
+		42C8BDF224AC443E00C00439 /* IOCheckerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C8BDF024AC443E00C00439 /* IOCheckerWindowController.m */; };
+		42C8BDF324AC443E00C00439 /* IOCheckerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDF124AC443E00C00439 /* IOCheckerWindowController.xib */; };
+		42C8BDF524AC46F100C00439 /* IOTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDF424AC46F100C00439 /* IOTable.plist */; };
+		42C8BE0024AD756200C00439 /* low_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDFE24AD756200C00439 /* low_on.png */; };
+		42C8BE0124AD756200C00439 /* high_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BDFF24AD756200C00439 /* high_off.png */; };
+		42C8BE0324AEB66700C00439 /* FlareSensorChecker (v2.0.0) user manunals.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 42C8BE0224AEB66700C00439 /* FlareSensorChecker (v2.0.0) user manunals.pdf */; };
+		42FA0E8824A9722900D6ACC2 /* ErrorCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E8724A9722900D6ACC2 /* ErrorCode.plist */; };
+		42FA0E8A24A984FB00D6ACC2 /* Profile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E8924A984FB00D6ACC2 /* Profile.plist */; };
+		42FA0E8C24A9BE6C00D6ACC2 /* axisid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E8B24A9BE6C00D6ACC2 /* axisid.jpg */; };
+		42FA0E9124A9D04000D6ACC2 /* PortCheckerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E8F24A9D04000D6ACC2 /* PortCheckerWindowController.xib */; };
+		42FA0E9324A9D46E00D6ACC2 /* PortProfile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E9224A9D46E00D6ACC2 /* PortProfile.plist */; };
+		42FA0E9724A9D8D300D6ACC2 /* cha.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E9424A9D8D300D6ACC2 /* cha.png */; };
+		42FA0E9824A9D8D300D6ACC2 /* gou.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E9524A9D8D300D6ACC2 /* gou.png */; };
+		42FA0E9924A9D8D300D6ACC2 /* tan.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E9624A9D8D300D6ACC2 /* tan.png */; };
+		42FA0E9D24A9DC6100D6ACC2 /* magnify1.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FA0E9C24A9DC6000D6ACC2 /* magnify1.png */; };
+		42FA0E9F24A9DFE500D6ACC2 /* PortCheckerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA0E9E24A9DFE500D6ACC2 /* PortCheckerWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42C8BDEB24AC233000C00439 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				048234B32628156700BDD31F /* JKFoundation.framework in CopyFiles */,
+				42C8BDEC24AC235E00C00439 /* libLTSMC.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		048234A72627EFA400BDD31F /* libMLFlare.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMLFlare.dylib; path = ../../../../../../../../usr/local/lib/libMLFlare.dylib; sourceTree = "<group>"; };
+		048234AC2628035200BDD31F /* ModuleCalibrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleCalibrationViewController.h; sourceTree = "<group>"; };
+		048234AD2628035200BDD31F /* ModuleCalibrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleCalibrationViewController.m; sourceTree = "<group>"; };
+		048234AE2628035200BDD31F /* ModuleCalibrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleCalibrationViewController.xib; sourceTree = "<group>"; };
+		048234B12628155E00BDD31F /* JKFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JKFoundation.framework; path = ../../../../../../microtest/lib/JKFoundation.framework; sourceTree = "<group>"; };
+		048234B426282B6700BDD31F /* GoDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoDown.png; sourceTree = "<group>"; };
+		048234B526282B6700BDD31F /* GoRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoRight.png; sourceTree = "<group>"; };
+		048234B626282B6700BDD31F /* GoLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoLeft.png; sourceTree = "<group>"; };
+		048234B726282B6700BDD31F /* GoUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoUp.png; sourceTree = "<group>"; };
+		048234DF2629300800BDD31F /* SysProfile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SysProfile.plist; sourceTree = "<group>"; };
+		04D6567A262E870200FA8E58 /* redLedMini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redLedMini.png; sourceTree = "<group>"; };
+		04D6567B262E870200FA8E58 /* greenLedMini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLedMini.png; sourceTree = "<group>"; };
+		422FC8DF2457FCF600B573A6 /* ModuleCalibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleCalibration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422FC8E22457FCF600B573A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		422FC8E32457FCF600B573A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		422FC8E52457FCF800B573A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422FC8E82457FCF800B573A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		422FC8EA2457FCF800B573A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422FC8EB2457FCF800B573A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		422FC8ED2457FCF800B573A6 /* ModuleCalibration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModuleCalibration.entitlements; sourceTree = "<group>"; };
+		422FC8F32457FD2600B573A6 /* libLTSMC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLTSMC.dylib; sourceTree = "<group>"; };
+		422FC8F42457FD2600B573A6 /* LTSMC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSMC.h; sourceTree = "<group>"; };
+		4287FE5F24A846CC00E2681C /* yellowLed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowLed.png; sourceTree = "<group>"; };
+		4287FE6024A846CC00E2681C /* greenLed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLed.png; sourceTree = "<group>"; };
+		4287FE6124A846CC00E2681C /* grayLed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayLed.png; sourceTree = "<group>"; };
+		4287FE6224A846CC00E2681C /* redLed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redLed.png; sourceTree = "<group>"; };
+		4287FE6324A846CD00E2681C /* disconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect.png; sourceTree = "<group>"; };
+		4287FE6424A846CD00E2681C /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		42C8BDE824AB396100C00439 /* MT_Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MT_Name.png; sourceTree = "<group>"; };
+		42C8BDED24AC423E00C00439 /* io.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = io.png; sourceTree = "<group>"; };
+		42C8BDEF24AC443E00C00439 /* IOCheckerWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOCheckerWindowController.h; sourceTree = "<group>"; };
+		42C8BDF024AC443E00C00439 /* IOCheckerWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOCheckerWindowController.m; sourceTree = "<group>"; };
+		42C8BDF124AC443E00C00439 /* IOCheckerWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IOCheckerWindowController.xib; sourceTree = "<group>"; };
+		42C8BDF424AC46F100C00439 /* IOTable.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IOTable.plist; sourceTree = "<group>"; };
+		42C8BDFE24AD756200C00439 /* low_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low_on.png; sourceTree = "<group>"; };
+		42C8BDFF24AD756200C00439 /* high_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = high_off.png; sourceTree = "<group>"; };
+		42C8BE0224AEB66700C00439 /* FlareSensorChecker (v2.0.0) user manunals.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FlareSensorChecker (v2.0.0) user manunals.pdf"; sourceTree = "<group>"; };
+		42FA0E8724A9722900D6ACC2 /* ErrorCode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ErrorCode.plist; sourceTree = "<group>"; };
+		42FA0E8924A984FB00D6ACC2 /* Profile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Profile.plist; sourceTree = "<group>"; };
+		42FA0E8B24A9BE6C00D6ACC2 /* axisid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = axisid.jpg; sourceTree = "<group>"; };
+		42FA0E8D24A9D04000D6ACC2 /* PortCheckerWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortCheckerWindowController.h; sourceTree = "<group>"; };
+		42FA0E8F24A9D04000D6ACC2 /* PortCheckerWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortCheckerWindowController.xib; sourceTree = "<group>"; };
+		42FA0E9224A9D46E00D6ACC2 /* PortProfile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PortProfile.plist; sourceTree = "<group>"; };
+		42FA0E9424A9D8D300D6ACC2 /* cha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cha.png; sourceTree = "<group>"; };
+		42FA0E9524A9D8D300D6ACC2 /* gou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gou.png; sourceTree = "<group>"; };
+		42FA0E9624A9D8D300D6ACC2 /* tan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tan.png; sourceTree = "<group>"; };
+		42FA0E9C24A9DC6000D6ACC2 /* magnify1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify1.png; sourceTree = "<group>"; };
+		42FA0E9E24A9DFE500D6ACC2 /* PortCheckerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortCheckerWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422FC8DC2457FCF600B573A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048234B22628155E00BDD31F /* JKFoundation.framework in Frameworks */,
+				048234A82627EFA400BDD31F /* libMLFlare.dylib in Frameworks */,
+				422FC8F52457FD2700B573A6 /* libLTSMC.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048234A62627EFA400BDD31F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048234B12628155E00BDD31F /* JKFoundation.framework */,
+				048234A72627EFA400BDD31F /* libMLFlare.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		422FC8D62457FCF600B573A6 = {
+			isa = PBXGroup;
+			children = (
+				422FC8E12457FCF600B573A6 /* ModuleCalibration */,
+				422FC8E02457FCF600B573A6 /* Products */,
+				048234A62627EFA400BDD31F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		422FC8E02457FCF600B573A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422FC8DF2457FCF600B573A6 /* ModuleCalibration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422FC8E12457FCF600B573A6 /* ModuleCalibration */ = {
+			isa = PBXGroup;
+			children = (
+				04D6567B262E870200FA8E58 /* greenLedMini.png */,
+				04D6567A262E870200FA8E58 /* redLedMini.png */,
+				048234B426282B6700BDD31F /* GoDown.png */,
+				048234B626282B6700BDD31F /* GoLeft.png */,
+				048234B526282B6700BDD31F /* GoRight.png */,
+				048234B726282B6700BDD31F /* GoUp.png */,
+				42C8BE0224AEB66700C00439 /* FlareSensorChecker (v2.0.0) user manunals.pdf */,
+				42C8BDFE24AD756200C00439 /* low_on.png */,
+				42C8BDFF24AD756200C00439 /* high_off.png */,
+				42C8BDED24AC423E00C00439 /* io.png */,
+				42C8BDE824AB396100C00439 /* MT_Name.png */,
+				42FA0E9C24A9DC6000D6ACC2 /* magnify1.png */,
+				42FA0E9424A9D8D300D6ACC2 /* cha.png */,
+				42FA0E9524A9D8D300D6ACC2 /* gou.png */,
+				42FA0E9624A9D8D300D6ACC2 /* tan.png */,
+				42FA0E8B24A9BE6C00D6ACC2 /* axisid.jpg */,
+				4287FE6424A846CD00E2681C /* connect.png */,
+				4287FE6324A846CD00E2681C /* disconnect.png */,
+				4287FE6124A846CC00E2681C /* grayLed.png */,
+				4287FE6024A846CC00E2681C /* greenLed.png */,
+				4287FE6224A846CC00E2681C /* redLed.png */,
+				4287FE5F24A846CC00E2681C /* yellowLed.png */,
+				42FA0E8724A9722900D6ACC2 /* ErrorCode.plist */,
+				42FA0E8924A984FB00D6ACC2 /* Profile.plist */,
+				42FA0E9224A9D46E00D6ACC2 /* PortProfile.plist */,
+				42C8BDF424AC46F100C00439 /* IOTable.plist */,
+				422FC8F32457FD2600B573A6 /* libLTSMC.dylib */,
+				422FC8F42457FD2600B573A6 /* LTSMC.h */,
+				422FC8E22457FCF600B573A6 /* AppDelegate.h */,
+				422FC8E32457FCF600B573A6 /* AppDelegate.m */,
+				42FA0E8D24A9D04000D6ACC2 /* PortCheckerWindowController.h */,
+				42FA0E9E24A9DFE500D6ACC2 /* PortCheckerWindowController.m */,
+				42FA0E8F24A9D04000D6ACC2 /* PortCheckerWindowController.xib */,
+				42C8BDEF24AC443E00C00439 /* IOCheckerWindowController.h */,
+				42C8BDF024AC443E00C00439 /* IOCheckerWindowController.m */,
+				42C8BDF124AC443E00C00439 /* IOCheckerWindowController.xib */,
+				422FC8E52457FCF800B573A6 /* Assets.xcassets */,
+				422FC8E72457FCF800B573A6 /* MainMenu.xib */,
+				422FC8EA2457FCF800B573A6 /* Info.plist */,
+				422FC8EB2457FCF800B573A6 /* main.m */,
+				422FC8ED2457FCF800B573A6 /* ModuleCalibration.entitlements */,
+				048234AC2628035200BDD31F /* ModuleCalibrationViewController.h */,
+				048234AD2628035200BDD31F /* ModuleCalibrationViewController.m */,
+				048234AE2628035200BDD31F /* ModuleCalibrationViewController.xib */,
+				048234DF2629300800BDD31F /* SysProfile.plist */,
+			);
+			path = ModuleCalibration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422FC8DE2457FCF600B573A6 /* ModuleCalibration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422FC8F02457FCF800B573A6 /* Build configuration list for PBXNativeTarget "ModuleCalibration" */;
+			buildPhases = (
+				422FC8DB2457FCF600B573A6 /* Sources */,
+				422FC8DC2457FCF600B573A6 /* Frameworks */,
+				422FC8DD2457FCF600B573A6 /* Resources */,
+				42C8BDEB24AC233000C00439 /* CopyFiles */,
+				42C8BDEA24AC1FFF00C00439 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModuleCalibration;
+			productName = FlareSensorChecker;
+			productReference = 422FC8DF2457FCF600B573A6 /* ModuleCalibration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422FC8D72457FCF600B573A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jackie Wang";
+				TargetAttributes = {
+					422FC8DE2457FCF600B573A6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 422FC8DA2457FCF600B573A6 /* Build configuration list for PBXProject "ModuleCalibration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422FC8D62457FCF600B573A6;
+			productRefGroup = 422FC8E02457FCF600B573A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422FC8DE2457FCF600B573A6 /* ModuleCalibration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422FC8DD2457FCF600B573A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FA0E9824A9D8D300D6ACC2 /* gou.png in Resources */,
+				42C8BE0324AEB66700C00439 /* FlareSensorChecker (v2.0.0) user manunals.pdf in Resources */,
+				4287FE6A24A846CD00E2681C /* connect.png in Resources */,
+				422FC8E62457FCF800B573A6 /* Assets.xcassets in Resources */,
+				42C8BDF324AC443E00C00439 /* IOCheckerWindowController.xib in Resources */,
+				4287FE6624A846CD00E2681C /* greenLed.png in Resources */,
+				048234BA26282B6700BDD31F /* GoLeft.png in Resources */,
+				42FA0E9D24A9DC6100D6ACC2 /* magnify1.png in Resources */,
+				42FA0E9124A9D04000D6ACC2 /* PortCheckerWindowController.xib in Resources */,
+				422FC8E92457FCF800B573A6 /* MainMenu.xib in Resources */,
+				4287FE6824A846CD00E2681C /* redLed.png in Resources */,
+				04D6567C262E870200FA8E58 /* redLedMini.png in Resources */,
+				42C8BE0124AD756200C00439 /* high_off.png in Resources */,
+				42C8BDF524AC46F100C00439 /* IOTable.plist in Resources */,
+				42FA0E8C24A9BE6C00D6ACC2 /* axisid.jpg in Resources */,
+				42FA0E8824A9722900D6ACC2 /* ErrorCode.plist in Resources */,
+				42FA0E8A24A984FB00D6ACC2 /* Profile.plist in Resources */,
+				4287FE6924A846CD00E2681C /* disconnect.png in Resources */,
+				42FA0E9724A9D8D300D6ACC2 /* cha.png in Resources */,
+				048234E02629300800BDD31F /* SysProfile.plist in Resources */,
+				42FA0E9324A9D46E00D6ACC2 /* PortProfile.plist in Resources */,
+				42FA0E9924A9D8D300D6ACC2 /* tan.png in Resources */,
+				04D6567D262E870200FA8E58 /* greenLedMini.png in Resources */,
+				42C8BDEE24AC423E00C00439 /* io.png in Resources */,
+				4287FE6724A846CD00E2681C /* grayLed.png in Resources */,
+				4287FE6524A846CD00E2681C /* yellowLed.png in Resources */,
+				42C8BE0024AD756200C00439 /* low_on.png in Resources */,
+				048234B02628035200BDD31F /* ModuleCalibrationViewController.xib in Resources */,
+				048234BB26282B6700BDD31F /* GoUp.png in Resources */,
+				42C8BDE924AB396100C00439 /* MT_Name.png in Resources */,
+				048234B926282B6700BDD31F /* GoRight.png in Resources */,
+				048234B826282B6700BDD31F /* GoDown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42C8BDEA24AC1FFF00C00439 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#mkdir \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/dylib\"\n#cp -f @loader_path/../Frameworks/libLTSMC.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/dylib\"\ninstall_name_tool -change /Users/apple/Documents/libLTSMC.dylib @loader_path/../Frameworks/libLTSMC.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422FC8DB2457FCF600B573A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422FC8EC2457FCF800B573A6 /* main.m in Sources */,
+				42FA0E9F24A9DFE500D6ACC2 /* PortCheckerWindowController.m in Sources */,
+				422FC8E42457FCF600B573A6 /* AppDelegate.m in Sources */,
+				048234AF2628035200BDD31F /* ModuleCalibrationViewController.m in Sources */,
+				42C8BDF224AC443E00C00439 /* IOCheckerWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		422FC8E72457FCF800B573A6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422FC8E82457FCF800B573A6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422FC8EE2457FCF800B573A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		422FC8EF2457FCF800B573A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		422FC8F12457FCF800B573A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ModuleCalibration/ModuleCalibration.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = $HOME/microtest/lib;
+				INFOPLIST_FILE = ModuleCalibration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModuleCalibration",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microtest.FlareSensorChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		422FC8F22457FCF800B573A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ModuleCalibration/ModuleCalibration.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = $HOME/microtest/lib;
+				INFOPLIST_FILE = ModuleCalibration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModuleCalibration",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MARKETING_VERSION = 3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microtest.FlareSensorChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422FC8DA2457FCF600B573A6 /* Build configuration list for PBXProject "ModuleCalibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8EE2457FCF800B573A6 /* Debug */,
+				422FC8EF2457FCF800B573A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422FC8F02457FCF800B573A6 /* Build configuration list for PBXNativeTarget "ModuleCalibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422FC8F12457FCF800B573A6 /* Debug */,
+				422FC8F22457FCF800B573A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422FC8D72457FCF600B573A6 /* Project object */;
+}

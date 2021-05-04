@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string>Success</string>
+	<key>1</key>
+	<string>Unknown Error</string>
+	<key>2</key>
+	<string>Parameter Error</string>
+	<key>3</key>
+	<string>Operate Timeout</string>
+	<key>4</key>
+	<string>State Busy</string>
+	<key>5</key>
+	<string>Too Many Connections</string>
+	<key>6</key>
+	<string>Interpolation Error</string>
+	<key>7</key>
+	<string>Connection Failure</string>
+	<key>8</key>
+	<string>Cannot be connected</string>
+	<key>9</key>
+	<string>Axis number is out of range</string>
+	<key>10</key>
+	<string>Transport error</string>
+	<key>12</key>
+	<string>firmware file error</string>
+	<key>20</key>
+	<string>firmware parameters error</string>
+	<key>22</key>
+	<string>The current state of firmware is not allowed to operate</string>
+	<key>24</key>
+	<string>The feature is not supported</string>
+	<key>34</key>
+	<string>ERR_AXIS_BUSY_STATE</string>
+	<key>51</key>
+	<string>List is not initiliazed</string>
+	<key>52</key>
+	<string>Invalid parameters</string>
+	<key>56</key>
+	<string>ERR_AXIS_MAP_ARRAY_ERR</string>
+	<key>57</key>
+	<string>Mapping axis error (ERR_MAP_AXIS_ERR)</string>
+	<key>58</key>
+	<string>Busy mapping axis (ERR_MAP_AXIS_BUSY)</string>
+	<key>63</key>
+	<string>Acc / Dec time is zero (ERR_ACC_TIME_ZERO)</string>
+	<key>80</key>
+	<string>Fail to smooth time (MCVP_SMOOTH_TIME_SET_ERROR)</string>
+	<key>81</key>
+	<string>Incorrect initial velocity absolute value setting ( MCVP_START_VEL_SET_ERROR)</string>
+	<key>82</key>
+	<string>Error setting maximum speed absolute value (MCVP_STEADY_VEL_SET_ERROR)</string>
+	<key>83</key>
+	<string>Incorrect stop speed absolute value setting (MCVP_END_VEL_SET_ERROR)</string>
+	<key>84</key>
+	<string>Set the motion distance to 0, unable to move (MCVP_TOTAL_LENGTH_SET_ERROR)</string>
+	<key>101</key>
+	<string>The selected axis exceeds the maximum value (ERR_AXIS_INDEX)</string>
+	<key>102</key>
+	<string>Axis is moving, parameters cannot be set (ERR_SET_WHILE_MOVING)</string>
+	<key>103</key>
+	<string>Axis is moving, cannot enter this mode (ERR_ENTER_WHILE_MOVING)</string>
+	<key>104</key>
+	<string>The axis is in a positive limit and cannot move forward (ERR_PEL_STATE)</string>
+	<key>105</key>
+	<string>The axis is in a negative limit and cannot move forward (ERR_NEL_STATE)</string>
+	<key>106</key>
+	<string>The axis is in a soft positive limit and cannot move forward (ERR_SOFT_PEL_STATE)</string>
+	<key>107</key>
+	<string>The axis is in a soft negative limit and cannot move forward (ERR_SOFT_NEL_STATE)</string>
+	<key>109</key>
+	<string>Error setting maximum speed. Cannot be zero (ERR_MAX_VEL_ZERO)</string>
+	<key>112</key>
+	<string>Error setting position. It is out of range (ERR_MAX_PULSE)</string>
+</dict>
+</plist>

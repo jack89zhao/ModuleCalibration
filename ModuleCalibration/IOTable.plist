@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>input</key>
+	<dict>
+		<key>0</key>
+		<string>servo_alarm1</string>
+		<key>1</key>
+		<string>servo_alarm2</string>
+		<key>2</key>
+		<string>servo_alarm3</string>
+		<key>3</key>
+		<string>servo_alarm4</string>
+		<key>4</key>
+		<string>servo_alarm5</string>
+		<key>5</key>
+		<string>servo_alarm6</string>
+		<key>6</key>
+		<string>servo_alarm7</string>
+		<key>7</key>
+		<string>servo_alarm8</string>
+		<key>8</key>
+		<string>left_door_closed</string>
+		<key>9</key>
+		<string>right_door_closed</string>
+		<key>10</key>
+		<string>cylinder_home</string>
+		<key>11</key>
+		<string>cylinder_shop</string>
+		<key>12</key>
+		<string>raster</string>
+		<key>13</key>
+		<string>emg_stop</string>
+		<key>14</key>
+		<string>green_led</string>
+		<key>15</key>
+		<string>red_led</string>
+		<key>16</key>
+		<string>blue_led</string>
+		<key>17</key>
+		<string>left_door_opened</string>
+		<key>18</key>
+		<string>right_door_opened</string>
+		<key>19</key>
+		<string>vacuum suction</string>
+		<key>20</key>
+		<string>side_door_opened</string>
+	</dict>
+	<key>output</key>
+	<dict>
+		<key>0</key>
+		<string></string>
+		<key>1</key>
+		<string></string>
+		<key>2</key>
+		<string></string>
+		<key>3</key>
+		<string></string>
+		<key>4</key>
+		<string>Vacuum Suction</string>
+		<key>5</key>
+		<string>Light Source Power</string>
+		<key>6</key>
+		<string></string>
+		<key>7</key>
+		<string></string>
+		<key>8</key>
+		<string></string>
+		<key>9</key>
+		<string></string>
+		<key>10</key>
+		<string></string>
+		<key>11</key>
+		<string></string>
+		<key>12</key>
+		<string></string>
+		<key>13</key>
+		<string></string>
+		<key>14</key>
+		<string>Spot Power</string>
+		<key>15</key>
+		<string>Cylinder Origin</string>
+		<key>16</key>
+		<string>Cylinder Test</string>
+		<key>17</key>
+		<string>Door Open</string>
+		<key>18</key>
+		<string>Door Close</string>
+		<key>19</key>
+		<string></string>
+		<key>20</key>
+		<string>DUT Power</string>
+		<key>21</key>
+		<string>Sun Light</string>
+		<key>22</key>
+		<string>Red Button Led</string>
+		<key>23</key>
+		<string>Green Button Led</string>
+		<key>24</key>
+		<string>Blue Button Led</string>
+		<key>25</key>
+		<string>Laser Power</string>
+		<key>26</key>
+		<string>Luxmeter Power</string>
+	</dict>
+</dict>
+</plist>
